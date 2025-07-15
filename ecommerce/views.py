@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return HttpResponse("Hello, welcome to the ecommerce home page")
+    return render(request,'home.html',{'name' : 'anu'})
