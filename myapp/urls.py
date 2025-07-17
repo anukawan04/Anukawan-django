@@ -22,6 +22,7 @@ from ecommerce import urls as ecommerce_urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ecommerce/', include(ecommerce_urls)),
+    path('api/v1/',include('users.urls')),
    
 
 ]
