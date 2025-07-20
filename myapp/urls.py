@@ -23,6 +23,8 @@ from order import urls as order_urls
 from products import urls as products_urls
 from cart import urls as cart_urls
 
+import myapp.my_admin
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
